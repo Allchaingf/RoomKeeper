@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A6CCBAF2FCE03610042AA6D /* RoamKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CCBAE2FCE03610042AA6D /* RoamKeeperApp.swift */; };
-		3A6CCBB12FCE03610042AA6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CCBB02FCE03610042AA6D /* ContentView.swift */; };
 		3A6CCBB32FCE03630042AA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6CCBB22FCE03630042AA6D /* Assets.xcassets */; };
 		3A6CCBB62FCE03630042AA6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6CCBB52FCE03630042AA6D /* Preview Assets.xcassets */; };
+		3AED58B92FF415CB005454DE /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 3AED58B82FF415CB005454DE /* codemagic.yaml */; };
+		F20000000000000000000001 /* RoamKeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* RoamKeeperApp.swift */; };
+		F20000000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* Models.swift */; };
+		F20000000000000000000003 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* Theme.swift */; };
+		F20000000000000000000004 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* AppStore.swift */; };
+		F20000000000000000000005 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* LaunchView.swift */; };
+		F20000000000000000000006 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000006 /* OnboardingView.swift */; };
+		F20000000000000000000007 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000007 /* RootView.swift */; };
+		F20000000000000000000008 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000008 /* DashboardView.swift */; };
+		F20000000000000000000009 /* GroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000009 /* GroupsView.swift */; };
+		F20000000000000000000010 /* CareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010 /* CareView.swift */; };
+		F20000000000000000000011 /* RoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000011 /* RoutesView.swift */; };
+		F20000000000000000000012 /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000012 /* InventoryView.swift */; };
+		F20000000000000000000013 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000013 /* AnalyticsView.swift */; };
+		F20000000000000000000014 /* PlanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000014 /* PlanningView.swift */; };
+		F20000000000000000000015 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000015 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A6CCBAB2FCE03610042AA6D /* RoamKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoamKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A6CCBAE2FCE03610042AA6D /* RoamKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamKeeperApp.swift; sourceTree = "<group>"; };
-		3A6CCBB02FCE03610042AA6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A6CCBB22FCE03630042AA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6CCBB52FCE03630042AA6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A6CCBBC2FCE03CF0042AA6D /* RoamKeeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoamKeeper.entitlements; sourceTree = "<group>"; };
+		3A6CCBBD2FCE03D20042AA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3AED58B82FF415CB005454DE /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
+		F10000000000000000000001 /* RoamKeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoamKeeperApp.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F10000000000000000000003 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F10000000000000000000004 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		F10000000000000000000005 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		F10000000000000000000006 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F10000000000000000000007 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F10000000000000000000008 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F10000000000000000000009 /* GroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsView.swift; sourceTree = "<group>"; };
+		F10000000000000000000010 /* CareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareView.swift; sourceTree = "<group>"; };
+		F10000000000000000000011 /* RoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesView.swift; sourceTree = "<group>"; };
+		F10000000000000000000012 /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		F10000000000000000000013 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		F10000000000000000000014 /* PlanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningView.swift; sourceTree = "<group>"; };
+		F10000000000000000000015 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +65,7 @@
 		3A6CCBA22FCE03610042AA6D = {
 			isa = PBXGroup;
 			children = (
+				3AED58B82FF415CB005454DE /* codemagic.yaml */,
 				3A6CCBAD2FCE03610042AA6D /* RoamKeeper */,
 				3A6CCBAC2FCE03610042AA6D /* Products */,
 			);
@@ -51,8 +82,23 @@
 		3A6CCBAD2FCE03610042AA6D /* RoamKeeper */ = {
 			isa = PBXGroup;
 			children = (
-				3A6CCBAE2FCE03610042AA6D /* RoamKeeperApp.swift */,
-				3A6CCBB02FCE03610042AA6D /* ContentView.swift */,
+				F10000000000000000000001 /* RoamKeeperApp.swift */,
+				F10000000000000000000007 /* RootView.swift */,
+				F10000000000000000000005 /* LaunchView.swift */,
+				F10000000000000000000006 /* OnboardingView.swift */,
+				F10000000000000000000002 /* Models.swift */,
+				F10000000000000000000004 /* AppStore.swift */,
+				F10000000000000000000003 /* Theme.swift */,
+				F10000000000000000000008 /* DashboardView.swift */,
+				F10000000000000000000009 /* GroupsView.swift */,
+				F10000000000000000000010 /* CareView.swift */,
+				F10000000000000000000011 /* RoutesView.swift */,
+				F10000000000000000000012 /* InventoryView.swift */,
+				F10000000000000000000013 /* AnalyticsView.swift */,
+				F10000000000000000000014 /* PlanningView.swift */,
+				F10000000000000000000015 /* SettingsView.swift */,
+				3A6CCBBD2FCE03D20042AA6D /* Info.plist */,
+				3A6CCBBC2FCE03CF0042AA6D /* RoamKeeper.entitlements */,
 				3A6CCBB22FCE03630042AA6D /* Assets.xcassets */,
 				3A6CCBB42FCE03630042AA6D /* Preview Content */,
 			);
@@ -125,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AED58B92FF415CB005454DE /* codemagic.yaml in Resources */,
 				3A6CCBB62FCE03630042AA6D /* Preview Assets.xcassets in Resources */,
 				3A6CCBB32FCE03630042AA6D /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +184,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6CCBB12FCE03610042AA6D /* ContentView.swift in Sources */,
-				3A6CCBAF2FCE03610042AA6D /* RoamKeeperApp.swift in Sources */,
+				F20000000000000000000001 /* RoamKeeperApp.swift in Sources */,
+				F20000000000000000000002 /* Models.swift in Sources */,
+				F20000000000000000000003 /* Theme.swift in Sources */,
+				F20000000000000000000004 /* AppStore.swift in Sources */,
+				F20000000000000000000005 /* LaunchView.swift in Sources */,
+				F20000000000000000000006 /* OnboardingView.swift in Sources */,
+				F20000000000000000000007 /* RootView.swift in Sources */,
+				F20000000000000000000008 /* DashboardView.swift in Sources */,
+				F20000000000000000000009 /* GroupsView.swift in Sources */,
+				F20000000000000000000010 /* CareView.swift in Sources */,
+				F20000000000000000000011 /* RoutesView.swift in Sources */,
+				F20000000000000000000012 /* InventoryView.swift in Sources */,
+				F20000000000000000000013 /* AnalyticsView.swift in Sources */,
+				F20000000000000000000014 /* PlanningView.swift in Sources */,
+				F20000000000000000000015 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,11 +324,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RoamKeeper/RoamKeeper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RoamKeeper/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoamKeeper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Room Keeper";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to use your camera in this application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -281,6 +345,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keeperroom.RoamKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,11 +360,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RoamKeeper/RoamKeeper.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RoamKeeper/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoamKeeper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Room Keeper";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to use your camera in this application";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,6 +381,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.keeperroom.RoamKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
